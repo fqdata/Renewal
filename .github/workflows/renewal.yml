@@ -3,7 +3,7 @@ name: 'Renewal'
 
 on:
   schedule:
-    - cron: '5 2 0/5 * *'
+    - cron: '5 2 1,6,11,16,21,26 * *'
   release:
     types: [published]
   watch:
