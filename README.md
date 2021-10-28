@@ -1,5 +1,5 @@
 # Renewal
-使用Github Action自动续期EUserv免费IPv6 VPS脚
+使用Github Action自动续期。
 
 ## 说明
 
