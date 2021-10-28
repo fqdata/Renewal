@@ -333,10 +333,12 @@ def main_handler(event, context):
         check(sessid, s)
         time.sleep(5)
 
+    print('*' * 30)
+
     # 通知渠道
     #SCKEY and server_chan()
     TG_BOT_TOKEN and TG_USER_ID and TG_API_HOST and telegram()
-    print('*' * 30)
     print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+
 if __name__ == '__main__':  # 方便我本地调试
     main_handler(None, None)
